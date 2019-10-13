@@ -3,9 +3,12 @@
    "version": "1.0",
    "default_locale": "en",
    "description": "Cute eco-friendly messages when you open a tab!",
+   "permissions":
+     "tabs"
+   ],
 
    "chrome_url_overrides": {
-     "newtab": "popup.html"
+     "newtab": "popup.html",
    },
 
    "background": {
