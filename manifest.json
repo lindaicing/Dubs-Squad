@@ -1,25 +1,25 @@
 {
-   "name": "Unnamed",
-   "version": "1.0",
-   "default_locale": "en",
-   "description": "Cute eco-friendly messages when you open a tab!",
-   "permissions": [
-     "tabs",
-     "activeTab"
-   ],
+  "name": "Unnamed",
+  "version": "1.0",
+  "description": "Cute eco-friendly messages when you open a tab!",
+  "permissions": [
+   "tabs",
+   "activeTab"
+  ],
 
-   "chrome_url_overrides": {
-     "newtab": "popup.html",
-   },
+  "chrome_url_overrides": {
+   "newtab": "popup.html"
+  },
 
-   "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
 
-    "browser_action": {
-      "default_popup": "popup.html",
-      "default_title": "-"
-    },
-   "manifest_version": 2
- }
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "-"
+  },
+
+  "manifest_version": 2
+}
